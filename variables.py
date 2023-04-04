@@ -1,3 +1,5 @@
+# Introduction
+# Day 2 - 30DaysOfPython Challenge
 """
     VARIABLES: Container of some value inside your computer memory.
 """
