@@ -25,3 +25,9 @@ area = length * width
 perimeter = 2 * (length + width)
 print (f"The area of the rectangle is, {area}")
 print (f"The perimeter of the rectangle is, {perimeter}")
+
+# radius of a circle using prompt
+pi = 3.14
+radius = float(input("Input radius of the circle: "))
+area = pi * radius * radius
+print (f"The area of the Circle is: , {area}") 
