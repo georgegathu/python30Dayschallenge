@@ -20,9 +20,19 @@ multiline_string = '''I am a techie and enjoy coding.
 I believe tech can and will change my life drastically.
 That is why I am always coding and partaking in 30 days of python.'''
 print(multiline_string)
-
 # Another way of doing the same thing
 multiline_string = """I am a techie and enjoy coding.
 I believe tech can and will change my life drastically.
 That is why I am always coding and partaking in 30 days of python."""
 print(multiline_string)
+
+#3. String Concatenation:  Merging or connecting strings is called concatenation
+first_name = 'Happy '
+last_name = 'Techie'
+full_name = first_name  + last_name
+print(full_name) # Happy Techie
+# Checking the length of a string using len() built-in function
+print(len(first_name))  # 6
+print(len(last_name))   # 6
+print(len(first_name) > len(last_name)) # False
+print(len(full_name)) # 12
