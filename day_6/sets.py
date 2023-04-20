@@ -12,9 +12,15 @@
     -A set example:
     fruits = {'banana', 'orange', 'melon', 'lemon'}
 """
-
 # Getting Set's Length
 # We use len() method to find the length of a set.
 fruits = {'banana', 'orange', 'mango', 'lemon'}
 len(fruits)
 print(len(fruits))
+
+
+# Accessing Items in a Set
+# We use loops to access items. We will see this in loop section
+# Exmample: To check if an item exist in a list we use in membership operator.
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+print('mango' in fruits ) # True
